@@ -68,6 +68,12 @@ header{
    align-items: center;
   
 }
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .col-right{
     
     
