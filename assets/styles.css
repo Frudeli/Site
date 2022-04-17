@@ -51,40 +51,53 @@ header{
 .col-left{
 
     width: 15%;
+    
 }
 
 .col-left p{
     margin-left: 5px;
-    margin-right: 5px;
-
-    text-align: center;
+    margin-right: 5px;  
 }
-
 
 .col-center{
-   width: 70%;
-   display: flex;
-   justify-content: flex-start;
-   align-items: center;
+    text-align: center;
+    width: 75%;
+    height: 60%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    float: right;
+ 
+   
+ } 
+.col-center p{
+    text-align: justify;
+    width: 70%;
+   height: 60%;
   
 }
-
 .image{
-    display: flex;
-    justify-content: center;
+    height: 100px;
+    width: 100px;
+    display: center;
     align-items: center;
+    justify-content: center;
 }
+
+
 .col-right{
-    
-    
+    text-align: center;
     width: 15%;
     height: 100%;
-    display: flexbox;
+    display: block;
     align-items: center;
-    justify-content: flex-end;
-    text-align: center;
+    justify-content: flex-start;
+    float: right;
+  
 }
 .col-right p{
     margin-left: 5px;
     margin-right: 5px;
+   
 }
+
